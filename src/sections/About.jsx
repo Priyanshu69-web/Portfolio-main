@@ -1,5 +1,8 @@
 import React, { useRef } from "react"
 import Card from "../components/Card"
+import { Globe } from "../components/Globe"
+import CopyEmailButton from "../components/CopyEmailButton"
+import { FrameWork } from "../components/FrameWork"
 
 const About = () => {
     const grid2Container = useRef()
@@ -34,16 +37,51 @@ const About = () => {
                         <p className="flex items-end text-5xl text-gray-500">
                             CODE IS CRAFT
                         </p>
-                        <Card style={{ rotate: "-30deg", top: "60%", left: "45%" }} text="GSAP" containerRef={grid2Container} />
-                        <Card style={{ rotate: "70deg", top: "30%", left: "70%" }} text="GSAP" containerRef={grid2Container} />
-                        <Card style={{ rotate: "-45deg", top: "55%", left: "0%" }} text="GSAP" containerRef={grid2Container} />
-                        <Card style={{ rotate: "28deg", top: "10%", left: "30%" }} text="GSAP" containerRef={grid2Container} />
+                        <Card style={{ rotate: "-30deg", top: "60%", left: "45%" }}
+                            text="GSAP" containerRef={grid2Container} />
+                        <Card style={{ rotate: "70deg", top: "30%", left: "70%" }}
+                            text="GSAP" containerRef={grid2Container} />
+                        <Card style={{ rotate: "-45deg", top: "55%", left: "0%" }}
+                            text="GSAP" containerRef={grid2Container} />
+                        <Card style={{ rotate: "28deg", top: "10%", left: "30%" }}
+                            text="GSAP" containerRef={grid2Container} />
 
                     </div>
                 </div>
-                <div className="grid-black-color grid-3"></div>
-                <div className="grid-special-color grid-4"></div>
-                <div className="grid-default-color grid-5"></div>
+                {/* Grid 3 */}
+                <div className="grid-black-color grid-3">
+                    <div className="z-10 w-[50%]" >
+                        <p className="headtext">Time Zone</p>
+                        <p className="subtext">I'm based in Delhi, and open to work and
+                            remote work opportunities worldwide.</p>
+                    </div>
+                    <figure className="absolute left-[30%] top-[10%] ">
+                        <Globe />
+                    </figure>
+
+                </div>
+
+                {/* grid 4 */}
+                <div className="grid-special-color grid-4">
+                    <div className="flex flex-col items-center justify-center gap-4 size-full">
+                        <p className="text-center headtext">Do you want to start a project together ?</p>
+                        <CopyEmailButton />
+                    </div>
+                </div>
+
+                {/* grid 5 */}
+                <div className="grid-default-color grid-5">
+                    <div className="z-10 w-[50%]">
+                        <p className="headText">Tech Stack</p>
+                        <p className="subText">I specialize in a Javascript, framworks and
+                            tools that allow me to build scalable and efficient web applications.</p>
+                    </div>
+                    <div className="absolute inset-y-0 md:inset-y-9 
+                    w-full h-full start-[50%] md:scale-125">
+                        <FrameWork />
+
+                    </div>
+                </div>
 
             </div>
 
