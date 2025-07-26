@@ -40,11 +40,23 @@ const About = () => {
                         <Card style={{ rotate: "-30deg", top: "60%", left: "45%" }}
                             text="GSAP" containerRef={grid2Container} />
                         <Card style={{ rotate: "70deg", top: "30%", left: "70%" }}
-                            text="GSAP" containerRef={grid2Container} />
+                            text="MOTION" containerRef={grid2Container} />
                         <Card style={{ rotate: "-45deg", top: "55%", left: "0%" }}
-                            text="GSAP" containerRef={grid2Container} />
+                            text="THREEJS" containerRef={grid2Container} />
                         <Card style={{ rotate: "28deg", top: "10%", left: "30%" }}
-                            text="GSAP" containerRef={grid2Container} />
+                            text="DAIZYUI" containerRef={grid2Container} />
+                        <Card style={{ rotate: "-28deg", top: "45%", left: "45%" }}
+                            image="assets/logos/javascript.svg"
+                            containerRef={grid2Container} />
+
+                        <Card style={{ rotate: "-60deg", top: "25%", left: "10%" }}
+                            image="assets/logos/react.svg"
+                            containerRef={grid2Container} />
+                        <Card style={{ rotate: "60deg", top: "60%", left: "80%" }}
+                            image="assets/logos/tailwindcss.svg"
+                            containerRef={grid2Container} />
+
+
 
                     </div>
                 </div>
