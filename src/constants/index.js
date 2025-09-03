@@ -5,12 +5,12 @@ export const myProjects = [
         description:
             "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
         subDescription: [
-            "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-            "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
+            "Built a scalable application with Node.Js, Express, and MongoDB for efficient data handling.",
+            "Implemented secure authentication and database management.",
             "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
             "Added payment systems, localization, and product filtering for functionality improvements.",
         ],
-        href: "",
+        href: "https://kloth-frontend.onrender.com",
         logo: "",
         image: "/assets/projects/accessories.jpg",
         tags: [
@@ -40,14 +40,14 @@ export const myProjects = [
         id: 2,
         title: "Task Manager",
         description:
-            "A secure authentication and authorization system using Auth0 for seamless user management.",
+            "A simple yet powerful task manager to organize, track, and complete your daily tasks efficiently.",
         subDescription: [
-            "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-            "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-            "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-            "Connected to a secure SQLite database for user data storage.",
+            "Clean and intuitive interface for easy task management..",
+            "Add, edit, and delete tasks with real-time updates.",
+            "Prioritize tasks to stay productive and focused.",
+            "Boost efficiency with a streamlined workflow."
         ],
-        href: "",
+        href: "https://task-manager-1-709e.onrender.com",
         logo: "",
         image: "/assets/projects/taskManager.png",
         tags: [
